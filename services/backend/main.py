@@ -1,7 +1,7 @@
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
 
-from services.backend.connection_manager import ConnectionManager
+from backend.connection_manager import ConnectionManager
 
 app = FastAPI()
 
