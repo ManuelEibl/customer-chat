@@ -21,3 +21,5 @@ Run fastapi app:
 ```bash
 poetry run fastapi dev services/backend/main.py
 ```
+
+Open services/frontend/customer_chat.html and services/frontend/support_chat.html in browser
